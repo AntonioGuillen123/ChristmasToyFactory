@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('name');
             $table->text('image');
             $table->text('description');
-            $table->foreignId('minimun_age_id')->constrained('minimun_age')->onDelete('cascade');
+            $table->foreignId('minimum_age_id')->constrained('minimum_age')->onDelete('cascade');
             $table->timestamps();
         });
     }

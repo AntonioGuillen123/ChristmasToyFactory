@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('minimun_age', function (Blueprint $table) {
+        Schema::create('minimum_age', function (Blueprint $table) {
             $table->id();
             $table->integer('age');
             $table->timestamps();
@@ -23,6 +23,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('minimun_age');
+        Schema::dropIfExists('minimum_age');
     }
 };
