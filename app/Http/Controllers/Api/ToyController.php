@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Models\Toy;
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
 
 class ToyController extends Controller
 {
@@ -13,8 +12,7 @@ class ToyController extends Controller
      */
     public function index()
     {
-        $toys = Toy::with('MinimumAge')->get();
-        return response()->json(compact('toys'), 200);
+        //
     }
 
     /**

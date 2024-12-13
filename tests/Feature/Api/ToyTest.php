@@ -2,21 +2,19 @@
 
 namespace Tests\Feature\Api;
 
-use App\Models\Toy;
-use Tests\TestCase;
-use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Foundation\Testing\WithFaker;
+use Tests\TestCase;
 
 class ToyTest extends TestCase
 {
-    use RefreshDatabase;
+    /**
+     * A basic feature test example.
+     */
+    public function test_example(): void
+    {
+        $response = $this->get('/');
 
-    public function test_CheckIfReceiveAllEntryOfToyInJsonFile(){
-        $toys = Toy::factory()->create();
-
-        $response = $this->get(route('apiindex'));
-
-        $response->assertStatus(200)
-                ->assertJsonCount(1);
+        $response->assertStatus(200);
     }
 }
