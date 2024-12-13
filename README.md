@@ -1,16 +1,24 @@
-# 👋 Welcome to our Christmas Toy Factory! 👋
+# 🎅 Welcome to our Christmas Toy Factory! 🎄
 
-I decided to make this application to facilitate job searching, as it would be much easier for me to keep track of the offers I apply for.
-It is created in Laravel 11 with two views and an API to manage offers, messages and companies.
-In the main view we will see a list of all the offers with a green border if it is activated and red if it is not, we will also see the logo of your company and its URL, if a company image is not indicated, a default one will be set. There will also be a button to filter the offers by their status.
-In the view of each offer, you will see the details of the offer with their respective follow-up messages.
+This project aims to develop a platform to help Santa Claus and his elves manage the toy factory and organize the gift list for children during the Christmas season.
+
+The application includes an intuitive and functional interface as well as an API that allows the elves to perform various essential tasks, such as managing toys.
+
+With this system, Santa Claus will be able to ensure that each child receives the perfect gift, thus ensuring a magical Christmas.
 - **Index View**:
 ![image](https://res.cloudinary.com/dierpqujk/image/upload/v1733831936/imagen_2024-12-10_125902548_pve0w5.png)
+
+## 🛠️🚀 Tech Stack
+- **Languages:** Html, Blade
+- **Frameworks:** Laravel, TailwindCSS
+- **Server:** Xampp, Apache, Nodejs
+- **Database:** Mysql
+- **Others:** Composer, Postman
 
 ## 📊📁 DB Diagram
 Below is a diagram of the database, showing different relationships between tables:
 
-- **Toy - MinimumAge:** One to many relationship. A minimum age can have many toys, but each toy belongs to only one minimum age.
+- **toy - minimum_age:** One to many relationship. A minimum age can have many toys, but each toy belongs to only one minimum age.
 
 ![image](https://res.cloudinary.com/dierpqujk/image/upload/v1734101541/imagen_2024-12-13_155219091_p0kr3s.png)
 
@@ -69,14 +77,6 @@ npm run dev
 ```
 npm run build
 ```
- 
-## 🛠️🚀 Tech Stack
-- **Languages:** Html, Blade
-- **Frameworks:** Laravel, TailwindCSS
-- **Server:** Xampp, Apache, Nodejs
-- **Database:** Mysql
-- **Others:** Composer, Postman
-
 
 ## 🏃‍♂️🧪 Running Tests
 
@@ -126,7 +126,7 @@ This API allows you to manage toy entries and provides CRUD (Create, Read, Updat
 
 - **Álvaro Cervera:**  [![GitHub](https://img.shields.io/badge/GitHub-Perfil-black?style=flat-square&logo=github)](https://github.com/Kalixto73a)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/álvaro-cervera-vigara-745576337/)
-[![Correo](https://img.shields.io/badge/Email-Contacto-red?style=flat-square&logo=gmail)](mailto:antonioguillengarcia123@gmail.com)
+[![Correo](https://img.shields.io/badge/Email-Contacto-red?style=flat-square&logo=gmail)](mailto:Kalixto75@gmail.com)
 
 - **Miguel Angel García:**  [![GitHub](https://img.shields.io/badge/GitHub-Perfil-black?style=flat-square&logo=github)](https://github.com/Mangel111111111)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?style=flat-square&logo=linkedin)](www.linkedin.com/in/miguel-garcía-lópez-609136284)
