@@ -20,6 +20,6 @@ class Toy extends Model
     ]; 
 }
 
-function minimumAge(){
+function minimumAges(){
     return $this->belongsTo(MininumAge::class);
 }
