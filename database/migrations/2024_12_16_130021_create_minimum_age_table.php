@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('minimum_age', function (Blueprint $table) {
             $table->id();
             $table->integer('age');
+            $table->foreignId('toy_id')->constrained('toys')->onDelete('cascade');
             $table->timestamps();
         });
     }

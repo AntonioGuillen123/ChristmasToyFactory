@@ -13,8 +13,10 @@ export default {
         extend: {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                christmas: ['ChristmasFont', ...defaultTheme.fontFamily.sans]
             },
         },
     },
     plugins: [],
+   
 };
