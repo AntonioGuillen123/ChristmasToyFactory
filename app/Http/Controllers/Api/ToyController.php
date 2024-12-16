@@ -1,15 +1,13 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Api;
 
 use App\Models\Toy;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
 class ToyController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
     public function index()
     {
         $toys = Toy::all();
@@ -47,9 +45,9 @@ class ToyController extends Controller
      */
     public function update(Request $request, string $id)
     {
-        $vacancy = Vacancy::find($id);
+        $toy = Toy::find($id);
 
-        $vacancy->update([
+        $toy->update([
             'name' => $request->name,
             'image' => $request->image,
             'description' => $request->description,
