@@ -116,6 +116,77 @@ This API allows you to manage toy entries and provides CRUD (Create, Read, Updat
 - **Status Code:** 200
 - **Content Type:** application/json
 
+#### 2 Get a toy by ID
+
+```http
+  GET /api/elve/id
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `id`      | `string` | **Required**. Toy ID     |
+
+#### Response:
+- **Status Code:** 200, 404
+- **Content Type:** application/json
+
+#### 3 Create a new toy
+
+```http
+  POST /api/elve
+```
+
+#### Response:
+- **Status Code:** 201
+- **Content Type:** application/json
+
+#### Body: 
+
+| Parameter | Type     | Description                    |
+| :-------- | :------- | :-------------------------     |
+| `name`    | `string` | **Required**. Name of toy    |
+| `image` | `string` | **Required**. Company of toy |
+| `description` | `string` | **Required**. Status of toy  |
+| `minimum_age_id` | `string` | **Required**. Id of the minimum age of the toy  |
+
+#### 4 Update an existing toy by ID
+
+```http
+  PUT /api/elve/id
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `id`      | `string` | **Required**. Toy ID     |
+
+#### Response:
+- **Status Code:** 201, 404
+- **Content Type:** application/json
+
+#### Body: 
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `name`    | `string` | Name of toy    |
+| `image` | `string` | Company of toy |
+| `description` | `string` | Status of toy  |
+| `minimum_age_id` | `string` | Id of the minimum age of the toy  |
+
+#### 5 Delete a toy by ID
+
+```http
+  DELETE /api/elve/id
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `id`      | `string` | **Required**. Toy ID     |
+
+#### Response:
+- **Status Code:** 204, 404
+- **Content Type:** No-Content, application/json
+
+
 ## ✍️🙍 Authors
 - **Antonio Guillén:**  [![GitHub](https://img.shields.io/badge/GitHub-Perfil-black?style=flat-square&logo=github)](https://github.com/AntonioGuillen123)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/antonio-guill%C3%A9n-905b941ab)
