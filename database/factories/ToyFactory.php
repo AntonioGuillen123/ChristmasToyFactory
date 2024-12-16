@@ -20,6 +20,7 @@ class ToyFactory extends Factory
             'name' => $this->faker->text(), 
             'description' => $this->faker->text(), 
             'image' => $this->faker->imageUrl(),
+            'minimum_age_id' => $this->faker->numberBetween($min = 1, $max = 3)
         ];
     }
 }

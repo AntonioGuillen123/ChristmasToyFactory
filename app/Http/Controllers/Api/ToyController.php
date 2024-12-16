@@ -12,8 +12,9 @@ class ToyController extends Controller
      */
     public function index()
     {
-        $toys = Toy::with('MinimumAge')->get();
-        return response()->json(compact('toys'), 200);
+        $toys = Toy::all();
+        /* $toys = Toy::with('MinimumAge')->get(); */
+        return response()->json($toys, 200);
     }
 
     /**
