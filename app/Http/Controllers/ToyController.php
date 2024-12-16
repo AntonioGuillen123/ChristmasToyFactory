@@ -1,10 +1,8 @@
 <?php
 
-namespace App\Http\Controllers\Api;
+namespace App\Http\Controllers;
 
-use App\Models\Toy;
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
 
 class ToyController extends Controller
 {
@@ -13,8 +11,7 @@ class ToyController extends Controller
      */
     public function index()
     {
-        $toys = Toy::all();
-        return response()->json($toys, 200);
+        //
     }
 
     /**
