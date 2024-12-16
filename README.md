@@ -94,11 +94,11 @@ With the following command we run the tests and we will also generate a coverage
 
 If everything is correct, everything should be OK.
 
-![image](https://res.cloudinary.com/dierpqujk/image/upload/v1733825508/imagen_2024-12-10_111156391_ks5bjc.png)
+![image](https://github.com/user-attachments/assets/11cf1200-71ff-4dab-a449-fbdc15188eb2)
 
-A folder called coverage-report will also have been generated with **96.60%** coverage.
 
-![image](https://res.cloudinary.com/dierpqujk/image/upload/v1733825767/imagen_2024-12-10_111614760_b94mzw.png)
+A folder called coverage-report will also have been generated with **86.05%** coverage.
+![image](https://github.com/user-attachments/assets/7d066461-0c33-4e5d-bbc1-1c26a120de2e)
 
 ## 📡🌐 Christmas Toy Factory API
 
