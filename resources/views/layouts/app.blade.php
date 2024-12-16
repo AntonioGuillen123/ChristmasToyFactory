@@ -10,7 +10,7 @@
 <body class="overflow-x-hidden">
         <x-header />
 
-        <main  class="bg-[#272b33] max-h-dvh">
+        <main  class="bg-[#272b33] md: h-[24.3rem] lg: h-screen xl: h-screen 2xl: h-screen">
             @yield('content')
         </main>
 
