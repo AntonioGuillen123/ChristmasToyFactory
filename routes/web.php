@@ -5,4 +5,4 @@ use App\Http\Controllers\ToyController;
 
 Route::get('/', function () {return view('home');});
 
-Route::get('/elf', [ToyController::class, 'index'])->name('home');
+Route::get('/elve', [ToyController::class, 'index'])->name('home');
