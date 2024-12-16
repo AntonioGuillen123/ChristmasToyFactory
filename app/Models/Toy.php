@@ -9,9 +9,16 @@ class Toy extends Model
 {
     use HasFactory;
 
+    protected $table = 'toy';
+    
     protected $fillable = [
         'name',
         'description',
         'image',
+        'minimum_age_id'
     ];
+
+    function minimumAges(){
+        return $this->belongsTo(MinimumAge::class);
+    }
 }

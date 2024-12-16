@@ -11,12 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('toys', function (Blueprint $table) {
+        Schema::create('toy', function (Blueprint $table) {
             $table->id();
             $table->string('name');
             $table->text('image');
             $table->text('description');
-            $table->foreignId('minimum_age_id')->constrained('minimum_ages')->onDelete('cascade');
+            $table->foreignId('minimum_age_id')->constrained('minimum_age')->onDelete('cascade');
             $table->timestamps();
         });
     }
@@ -26,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('toys');
+        Schema::dropIfExists('toy');
     }
 };
