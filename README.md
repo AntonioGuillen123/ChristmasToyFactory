@@ -6,7 +6,8 @@ The application includes an intuitive and functional interface as well as an API
 
 With this system, Santa Claus will be able to ensure that each child receives the perfect gift, thus ensuring a magical Christmas.
 - **Index View**:
-![image](https://github.com/user-attachments/assets/c0c18c44-e3ac-4671-b1d1-ce5ae38b054e)
+![image](https://github.com/user-attachments/assets/452a0d8f-9418-49a8-9c72-1269b1f80a59)
+
 
 
 ## 🛠️🚀 Tech Stack
