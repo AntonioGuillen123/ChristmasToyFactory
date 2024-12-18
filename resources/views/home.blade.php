@@ -17,10 +17,10 @@
         </div>
         <a href="">
             <button
-                class="flex justify-center bg-white p-6 rounded-lg bg-center bg-cover transform hover:scale-110 transition-transform duration-500 h-[17.5rem] w-[18rem]">
-                <div class="font-bold  text-3xl">
+                class="flex justify-center bg-white p-6 rounded-lg bg-center bg-cover transform hover:scale-110 transition-transform duration-500 h-[17rem] w-[18rem]">
+                <div class="font-bold text-3xl">
                     Santa Claus
-                    <img class="pl-3 h-[11.8rem] w-[13rem]" src="image/GitanoSupremo.png" alt="" />
+                    <img class="pl-3 h-[13rem] w-[13rem]" src="image/GitanoSupremo.png" alt="" />
                 </div>
             </button>
         </a>
