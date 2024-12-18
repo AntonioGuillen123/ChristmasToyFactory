@@ -4,7 +4,7 @@
         <div class="grid grid-cols-5 text-center">
             <div class="transform hover:scale-110 transition-transform duration-500">
                 <a href="https://github.com/SantiVigna">
-                    <p class="font-bold text-base">Santiago</p>
+                    <p class="font-bold text-base">Santino</p>
                     <img src="/image/github.svg" alt="" class="w-14 h-14  mx-auto mt-1 rounded-full">
                 </a>
             </div>
