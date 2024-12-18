@@ -12,18 +12,18 @@
                 </div>
             </button>
         </a>
-       {{--  <div class="border-r-2 h-[14rem]">
+        <div class="border-r-2 h-[14rem]">
             ‎
         </div>
         <a href="">
             <button
-                class="bg-white p-6 rounded-lg bg-center bg-cover transform hover:scale-110 transition-transform duration-500">
+                class="flex justify-center bg-white p-6 rounded-lg bg-center bg-cover transform hover:scale-110 transition-transform duration-500 h-[17.5rem] w-[18rem]">
                 <div class="font-bold  text-3xl">
                     Santa Claus
-                    <img class="h-[11.8rem] w-[15rem]" src="image/GitanoSupremo.png" alt="" />
+                    <img class="pl-3 h-[11.8rem] w-[13rem]" src="image/GitanoSupremo.png" alt="" />
                 </div>
             </button>
-        </a> --}}
+        </a>
     </div>
 </div>
 @endsection

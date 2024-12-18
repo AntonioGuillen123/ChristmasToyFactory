@@ -9,10 +9,10 @@
             <p>🧝🏻</p>
             <p class="font-bold">Elves</p>
         </button>
-        {{-- <button type="button" class="flex text-[1.3rem] gap-2 focus:outline-none text-white bg-red-600 duration-1000 hover:bg-red-700 hover:scale-110 transition-transform font-medium rounded-lg text-sm px-3 py-2.5 me-2 mb-2">
+        <button type="button" class="flex text-[1.3rem] gap-2 focus:outline-none text-white bg-red-600 duration-1000 hover:bg-red-700 hover:scale-110 transition-transform font-medium rounded-lg text-sm px-3 py-2.5 me-2 mb-2">
             <p>🎅🏻</p>
             <p class="font-bold">Santa Claus</p>
-        </button> --}}
+        </button>
     </div>
     </div>
 </header>
